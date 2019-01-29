@@ -3,8 +3,6 @@
 # Licensed under the MIT License. See License.txt in the project root for license information.
 # --------------------------------------------------------------------------------------------
 
-import azure.cli.command_modules.redis._help  # pylint: disable=unused-import
-
 
 def load_arguments(self, _):
     from azure.mgmt.redis.models import RebootType, RedisKeyType, SkuName
